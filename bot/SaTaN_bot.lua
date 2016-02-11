@@ -233,93 +233,123 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "plugins"
+    "plugins",
+    "welcome",
+    "server",
+    "linkpv",
+    "lock_link",
+    "anti_spam",
     },
-    sudo_users = {198828890},--Sudo users
+    sudo_users = {168800201},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V 1
-    Advanced Bot Base On Seed
-    
-    @WilSoN_DeVeLoPeR[DeVeLoPeR] 
-    
-    #Open_Source 
-    [@W_SaTaN_W] [Https://github.com/DeterGent-Legion/MeGa_SaTaN]
+    about_text = [[@black908 :|]
     
 ]],
     help_text_realm = [[
-Realm Commands:
+دستورات گروه
 
-!creategroup [Name]
-Create a group
+!kick [ایدی فرد و یا ریپلی پیام او]
+کیک کردن فردی
 
-!createrealm [Name]
-Create a realm
-
-!setname [Name]
-Set realm name
-
-!setabout [GroupID] [Text]
-Set a group's about text
-
-!setrules [GroupID] [Text]
-Set a group's rules
-
-!lock [GroupID] [setting]
-Lock a group's setting
-
-!unlock [GroupID] [setting]
-Unock a group's setting
-
-!wholist
-Get a list of members in group/realm
-
+🚀🤓
+!ban [ایدی فرد و یا ریپلی پیام او]
+کیک دائمی فردی
+🤖🚀
+!unban [ایدی فرد و یا ریپلی پیام او]
+خلاص شدن از کیک دائمی فردی.
+😏
 !who
-Get a file of members in group/realm
-
-!type
-Get group type
-
-!kill chat [GroupID]
-Kick all memebers and delete group
-
-!kill realm [RealmID]
-Kick all members and delete realm
-
-!addadmin [id|username]
-Promote an admin by id OR username *Sudo only
-
-!removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
-
-!list groups
-Get a list of all groups
-
-!list realms
-Get a list of all realms
-
+لیست اعضا
+🤖🔛
+!modlist
+لیست مدیران گروه
+🚀🍾
+!promote [ایدی فرد و یا ریپلی پیام او]
+اضافه کردن مدیری به گروه
+☠
+!demote [ایدی فرد و یا ریپلی پیام او.]
+حذف کردن فردی از مدیریت در گروه
+👲👳
+!kickme
+خروج از گروه
+😔
+!about
+درباره گروه
+😋
+!setphoto
+تنظیم عکس  و قفل کردن ان
+🤔
+!setname [نام]
+تنظیم نام گروه به : نام
+🤒
+!rules
+قوانین گروه
+🙈
+!id
+ایدی گروه و با ریپلی کردن پیام فردی ایدی او را نشان میدهد
+🐍
+!lock [member|name|bots|leave] 
+بستن : اعضا - نام - ورود ربات ها - خروج اعضا
+🌊☄💫
+!unlock [member|name|bots|leave]
+بازکردن : اعضا - نام - ورود ربات ها - خروج اعضا
+🎌🎥🎅
+!set rules <متن>
+تنظیم قوانین گروه به : متن
+👻🎃👻
+!set about <متن>
+تنظیم درباره گروه به : متن
+🎍🎆
+!settings
+تنظیمات گروه
+💻📱
+addadmin
+اضافه شدن مدیر به گروه
+📀💽
+!newlink
+لینک جدید
+🎁🎉
+!link
+لینک گروه
+👻📷
+!owner
+ایدی صاحب گروه
+💻📠
+!setowner [ایدی فرد و یا ریپلی پیام او]
+تنظیم صاحب گروه
+🎑🎐
+!setflood [عدد]
+تنظیم مقدار اسپم : میتواند از عدد 5 شروع شود.
+🐑🐑
+!stats
+نمایش تعداد پیام ها
+🐴💂
+!save [نام دستور] <متن>
+ساختن دستور جدید : نام دستور - متن
+👷👮
+!get [نام دستور]
+دریافن دستور
+💀👸
+!clean [modlist|rules|about]
+پاک کردن : لیست مدیران - قوانین - درباره گروه
+👄👃
+!res [username]
+دریافت نام و ایدی فردی. مثال👇🏻
+"!res @Mr_Vigeo"
+🔥👽
 !log
-Grt a logfile of current group or realm
+دریافت ورودی های گروه
+👂💨
+!banlist
+لیست افراد بن شده
 
-!broadcast [text]
-!broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
+شما میتوانید از دستورات زیر استفاده کنید👇🏻
+"!" "/" "#" "@" "$"
+سازنده : @Mr_Vigeo 
+@black908
 
-!bc [group_id] [text]
-!bc 123456789 Hello !
-This command will send text to [group_id]
-
-
-**U can use both "/" and "!" 
-
-
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
+👆💪
 ]],
     help_text = [[
 ]]
